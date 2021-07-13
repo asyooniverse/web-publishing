@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #616161;
+}
+
+.icon {
+  display: none !important;
+}
+
+.wrap {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.headerWrap {
+  padding-bottom: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  width: 270px;
+  float: left;
+}
+
+.member {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5px;
+  padding-right: 15px;
+}
+
+.member li {
+  font-size: 12px;
+  color: gray;
+}
+
+.line {
+  margin: 0 9px 0 9px !important;
+}
+
+.line {
+  position: relative;
+  top: -1px;
+  padding: 0;
+  margin: 0 9px 0 5px;
+  border-right: 1px solid lightgray;
+  font-size: 8px;
+}
+
+.logo_nav,
+.member {
+  margin: 0 220px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+.nav li {
+  font-size: 14px;
+  color: #757575;
+}
+
+.logo {
+  margin-top: -20px;
+}
+
+.picture {
+  text-align: center;
+}
+
+.poster {
+  padding: 0;
+  width: 80%;
+}
+
+.judge {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.onlineJudge {
+  font-size: 28px;
+  color: #616161;
+}
+
+.onlineJudge:after {
+  margin: 0 auto;
+  content: "";
+  display: block;
+  position: relative;
+  top: 18px;
+  width: 100px;
+  border-bottom: 4px solid #616161;
+}
+
+.explain {
+  margin: 50px 0 100px 0;
+}
+
+.quiz {
+  height: 250px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quizBox {
+  display: flex;
+}
+
+.quizBox li {
+  width: 270px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 40px;
+  padding: 0 0;
+  border: 1px solid #555;
+  color: white;
+}
+
+.quizBox .number {
+  font-size: 48px;
+}
+
+.quizBox .hash {
+  font-size: 16px;
+  color: lightgray;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 130px;
+}
+
+.newTitle,
+.plusTitle,
+.engTitle,
+.rankTitle {
+  font-size: 20px;
+}
+
+.newList.time {
+  margin-top: 3px;
+}
+
+.list span {
+  color: #1565c0;
+}
+
+.list ul {
+  width: 265px;
+  padding-top: 20px;
+  border-top: 1px solid lightgray;
+  font-size: 14px;
+}
+
+.list li {
+  width: 260px;
+  padding: 12px;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  border-radius: 8%;
+}
+
+.newTitle:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 90px;
+  border-bottom: 3px solid #1e88e5;
+}
+
+.plusTitle:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 110px;
+  border-bottom: 3px solid #1e88e5;
+}
+
+.engTitle:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 160px;
+  border-bottom: 3px solid #1e88e5;
+}
+
+.rankTitle:after {
+  content: "";
+  display: block;
+  position: relative;
+  top: 16px;
+  width: 90px;
+  border-bottom: 3px solid #1e88e5;
+}
+
+.footerWrap {
+  display: flex;
+  justify-content: space-around;
+  height: 550px;
+  padding: 0 170px;
+  background-color: #212121;
+  color: white;
+}
+
+.footerWrap ul {
+  width: 250px;
+}
+
+.footerWrap li {
+  padding: 3px;
+  color: #eeeeee;
+  font-size: 12px;
+}
+
+.footerWrap .title {
+  font-size: 14px;
+  font-weight: bold;
+  color: #eeeeee;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+  margin-top: 50px;
+}
+
+.poster {
+  border: 1px solid #e2e2e2;
+}
+
+@media screen and (max-width: 1400px) {
+  .logo_nav,
+  .member {
+    margin: 0;
+  }
+  .logo_nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    width: 350px;
+  }
+
+  .logo {
+    padding: 40px 0 10px 15px;
+    text-align: left;
+    left: 32px;
+  }
+
+  .nav {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .judge {
+    margin-top: 85px;
+  }
+
+  .logo_nav > nav > .nav {
+    display: none;
+    color: lightgrey;
+  }
+
+  .icon2 {
+    display: block;
+  }
+
+  .icon2.clicked {
+    display: none;
+  }
+
+  .logo_nav > nav > .nav.clicked {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav li {
+    font-weight: bold;
+    display: block;
+    padding: 14px 0 14px 18px;
+    border-bottom: 1px solid rgb(235, 235, 235);
+  }
+
+  .problem {
+    border-top: 1px solid rgb(235, 235, 235);
+  }
+
+  .icon {
+    display: block !important;
+    position: absolute;
+    right: 25px;
+    margin-top: 30px;
+    padding: 4px 14px;
+    font-size: 26px;
+    color: white;
+    background-color: #0076c0;
+  }
+
+  .member {
+    padding-top: 20px;
+  }
+
+  .poster {
+    padding: 0;
+    width: 100%;
+  }
+
+  .headerWrap {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+  }
+
+  .quizBox {
+    padding: 80px 0;
+    margin: 0 5px;
+  }
+
+  .quizBox li {
+    width: 450px;
+    margin: 0 20px 0 20px;
+  }
+
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    width: 900px;
+  }
+
+  .list nav {
+    margin: 10px;
+  }
+
+  .list span {
+    color: #1565c0;
+  }
+
+  .footerWrap .title {
+    margin: 0 0;
+    width: 180px;
+  }
+
+  .footerWrap {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    background-color: #212121;
+    color: #e0e0e0;
+  }
+
+  .footerWrap ul {
+    width: 200px;
+  }
+
+  .footerWrap li {
+    margin-left: -40px;
+    padding: 3px;
+    width: 180px;
+    color: #e0e0e0;
+  }
+
+  .first,
+  .second,
+  .third,
+  .fourth {
+    margin: 60px 0;
+  }
+
+  .footerWrap .title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e0e0e0;
+  }
+}
